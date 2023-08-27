@@ -1,0 +1,138 @@
+body {
+	
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+	background-image: url(images/5991049.jpg);
+    background-size: cover;
+	background-attachment:fixed;
+	text-align: center;
+	
+    }
+  
+  h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+    color: #333;
+    text-align: center;
+	
+  }
+  
+  h3 {
+	  color:blue;
+	  
+  }
+  
+	  
+  
+  
+  header {
+	  
+	text-shadow: 1px 1px 2px black, 0 0 25px gold, 0 0 5px yellow;
+	font-family: 'Times New Roman', serif;
+	font-size:20px;
+	background-image: url("images/Screenshot7.png");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    color: white;
+    padding: 100px;
+    text-align: center;
+  }
+
+  ul {
+	  
+  text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+	
+  }
+  
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+	
+  }
+  
+  .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50px;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  box-shadow: 3px 3px 3px 3px #333333;
+}
+
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer ul li {
+	text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px;
+    margin: 0 15px;
+  }
+
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
